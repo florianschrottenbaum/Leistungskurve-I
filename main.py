@@ -13,4 +13,7 @@ PowerOriginal = sort.bubble_sort(PowerOriginal)
 #plot
 xaxis = np.arange(1, 1805)
 plt.pyplot.plot(xaxis,PowerOriginal)
+xaxisticks=[0,300,600,900,1200,1500,1800]
+labelsxaxis = ['0','5','10','15','20','25','30']
+plt.pyplot.xticks(xaxisticks, labelsxaxis)
 plt.pyplot.show()
