@@ -13,8 +13,11 @@ PowerOriginal = sort.bubble_sort(PowerOriginal)
 xaxis = np.arange(1, 1805)
 plt.pyplot.plot(xaxis,PowerOriginal)
 #plotoptions
-xaxisticks=[0,300,600,900,1200,1500,1800]
-labelsxaxis = ['0','5','10','15','20','25','30']
+xaxisticks=[]
+labelsxaxis=[]
+for counter in range(0,len(PowerOriginal),300):
+    xaxisticks.append(counter)
+    labelsxaxis.append(str(counter/60))
 plt.pyplot.xticks(xaxisticks, labelsxaxis)
 plt.pyplot.xlabel('Time [min]')
 plt.pyplot.ylabel('Power [W]')
