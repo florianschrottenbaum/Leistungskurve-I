@@ -3,6 +3,7 @@ import load_data
 import numpy as np
 import matplotlib as plt
 import sort
+#import data from load_data
 data = load_data.load_data('activity.csv')
 #import PowerOriginallist
 PowerOriginal = data['PowerOriginal']
@@ -17,6 +18,5 @@ labelsxaxis = ['0','5','10','15','20','25','30']
 plt.pyplot.xticks(xaxisticks, labelsxaxis)
 plt.pyplot.xlabel('Time [min]')
 plt.pyplot.ylabel('Power [W]')
-#showing Plot
-plt.pyplot.show()
 plt.pyplot.savefig('figures/PowerOriginal.png')
+plt.pyplot.show()
