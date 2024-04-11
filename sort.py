@@ -1,4 +1,4 @@
-def sort(list):
+def bubble_sort(list):
     for i in range(len(list)-1):
         for j in range(len(list)-1):
             if list[j] < list[j+1]:
