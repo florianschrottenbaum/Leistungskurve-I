@@ -1,2 +1,3 @@
-def bubble_sort():
-    print("---")
+def bubble_sort(data):
+    for counter in len(data):
+        
