@@ -7,18 +7,10 @@ data = load_data.load_data('activity.csv')
 keysList = list(data.keys())
 print(keysList)
 #Listen mit den einzelnen Werten zu den Kategorien
-Duration = data['Duration']
-Distance = data['Distance']
-OriginalPace = data['OriginalPace']
-HeartRate = data['HeartRate']
-Cadence = data['Cadence']
 PowerOriginal = data['PowerOriginal']
-CalculatedPace = data['CalculatedPace']
-CalculatedStrideLength = data['CalculatedStrideLength']
-CalculatedAerobicEfficiencyPace = data['CalculatedAerobicEfficiencyPace']
-CalculatedAerobicEfficiencyPower = data['CalculatedAerobicEfficiencyPower']
-CalculatedEfficiencyIndex = data['CalculatedEfficiencyIndex']
-
+#Sortieren der Listen
+PowerOriginal = sort.bubble_sort(PowerOriginal)
+#plot
 xaxis = np.arange(1, 1805)
-#plt.pyplot.plot(xaxis,HeartRate)
-#plt.pyplot.show()
+plt.pyplot.plot(xaxis,PowerOriginal)
+plt.pyplot.show()
