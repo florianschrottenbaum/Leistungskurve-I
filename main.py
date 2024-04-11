@@ -18,5 +18,7 @@ labelsxaxis = ['0','5','10','15','20','25','30']
 plt.pyplot.xticks(xaxisticks, labelsxaxis)
 plt.pyplot.xlabel('Time [min]')
 plt.pyplot.ylabel('Power [W]')
+#showing Plot
+plt.pyplot.show()
 plt.pyplot.savefig('figures/PowerOriginal.png')
 plt.pyplot.show()
