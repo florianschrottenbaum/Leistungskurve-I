@@ -1,5 +1,5 @@
 import numpy as np
-from selection_sort import bubble_sort
+from sort import bubble_sort
 import matplotlib.pyplot as plt
 
 def load_data(file_path):

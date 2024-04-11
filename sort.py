@@ -1,3 +1,10 @@
+def bubble_sort(list):
+    for i in range(len(list)-1):
+        for j in range(len(list)-1):
+            if list[j] > list[j+1]:
+                list[j], list[j+1] = list[j+1], list[j]
+    return list
+
 def selection_sort(list):
     for i in range(len(list)-1, -1, -1):
         i_max = i
@@ -6,5 +13,3 @@ def selection_sort(list):
                 i_max = j
         list[i], list[i_max] = list[i_max], list[i]
     return list
-
-print(selection_sort([3, 2, 1, 5, 4])) # [1, 2, 3, 4, 5]
