@@ -1,5 +1,8 @@
-print("###")
-import numpy
 import load_data
+import numpy as np
+import matplotlib as plt
 daten = load_data.load_data('activity.csv')
-print(daten)
+Heartrate = (daten['HeartRate'])
+xachse = np.arange(1, 1805)
+plt.pyplot.plot(xachse,Heartrate)
+plt.pyplot.show()
