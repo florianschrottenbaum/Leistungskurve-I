@@ -19,4 +19,5 @@ plt.pyplot.xlabel('Time [min]')
 plt.pyplot.ylabel('Power [W]')
 #showing Plot
 plt.pyplot.show()
+#save plot
 plt.pyplot.savefig('figures/PowerOriginal.png')
