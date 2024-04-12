@@ -15,6 +15,6 @@ def plotcreation(signal):
     plt.pyplot.ylabel('Power [W]')
     plt.pyplot.title('Power-Curve')
     #saving the plot
-    plt.pyplot.savefig('figures/PowerCurve.png')
+    plt.pyplot.savefig('figures/PowerLight.png')
     #showing Plot
     plt.pyplot.show()
