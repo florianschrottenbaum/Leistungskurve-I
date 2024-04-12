@@ -7,6 +7,6 @@ data = load_data.load_data('activity.csv')
 #import PowerOriginallist
 PowerOriginal = data['PowerOriginal']
 #sort poweroriginal
-PowerOriginal = sort.bubble_sort(PowerOriginal)
+PowerOriginalSorted = sort.bubble_sort(PowerOriginal)
 #plot creation and save
-plot.plotcreation(PowerOriginal)
+plot.plotcreation(PowerOriginalSorted)

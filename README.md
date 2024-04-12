@@ -13,10 +13,9 @@ The Leistungskurve-I is a project designed to import data, sort the data (descen
 3. Install the required packages, if not installed yet:
     ```bash
     pip install numpy matplotlib
-    pip install numpy
     ```
 4. To execute the project, run the `main.py` file:
      ```bash
     python main.py
     ```
-5. Find the generated `.png` file named `PowerCurveLight.png` in the folder `figures`.
+5. Find the generated `.png` file named `PowerLight.png` in the folder `figures`.
