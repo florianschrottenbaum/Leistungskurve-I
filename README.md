@@ -9,6 +9,9 @@ The Leistungskurve-I is a project designed to import data, sort the data (descen
 - The code was written by using a venv. 
 ## How to Use
 1. Clone this repository to your local machine.
+    ```bash
+    git clone https://github.com/florianschrottenbaum/Leistungskurve-I
+    ```
 2. Make sure you have Python installed.
 3. Install the required packages, if not installed yet:
     ```bash
